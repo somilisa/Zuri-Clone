@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+    /*overflow: hidden;*/
+}
+
+a {
+    color: #E7332B;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eb5850;
+    text-decoration: none;
+}
+
+.container-fluid {
+    max-width: 1440px !important;
+}
+
+.my-container {
+    max-width: 1240px !important;
+}
+
+.zuri-logo {
+    margin: auto;
+    display: flex;
+    margin: 70px 0;
+    /*padding-top: 69px;
+    margin-bottom: 69px;*/
+}
+
+.zuri-logo img {
+    margin: auto;
+}
+
+
+.hero-container {
+    height: 150vh;
+    background-image: url("..Assets/Images/hero-bg.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #514949;
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 36px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.button {
+    margin-top: 90px;
+    padding: 10px 25px;
+    border: none;    
+}
+
+.btn-left {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.btn-left:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-right {
+    background-color: #fff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+}
+
+.btn-right:hover {
+    background-color: #E7332B;
+    color: #fff;
+}
