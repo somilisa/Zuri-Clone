@@ -1,4 +1,6 @@
 * {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: Averta, sans-serif;
     /*overflow: hidden;*/
@@ -14,16 +16,7 @@ a:hover{
     text-decoration: none;
 }
 
-.container-fluid {
-    max-width: 1440px !important;
-}
-
-.my-container {
-    max-width: 1240px !important;
-}
-
 .zuri-logo {
-    margin: auto;
     display: flex;
     margin: 70px 0;
     /*padding-top: 69px;
@@ -91,4 +84,125 @@ a:hover{
 .btn-right:hover {
     background-color: #E7332B;
     color: #fff;
+}
+section.programs {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.program-content {
+    margin: 0 auto;
+    padding-top: 0 !important;
+}
+
+.program-content .heading {
+    color: #E7332B;
+    font-size: 14px;
+    /*line-height: 24px;*/
+    margin-top: 141px;
+}
+
+.program-content p.slogan {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+
+}
+.container-fluid{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    max-width: 1240px;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.col{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-zed{
+    position: relative;
+    z-index: 1;
+}
+
+.program-card {
+    width: 100%;
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+    text-align: left;
+}
+.program-card img{
+    margin-bottom: 48px;
+}
+.left-img{
+        width: 100%;
+        position: absolute;
+        left: -120px;
+        top: -75px;
+        z-index: -1;
+}
+.right-img{
+    width: 90%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+.program-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+}
+footer{
+    margin: 215 px;
+    max-width: 1240 px;
+    margin: 0 auto;
+}
+.footer h3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+}
+
+
+@media (min-width: 992px){
+
+.col {
+    width: 33.333333%;}
+.program-card {
+    margin: 0 !important;
+}
+.text-center{
+    text-align: left;
+}
+.footer-flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
 }
