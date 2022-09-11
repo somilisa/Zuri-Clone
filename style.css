@@ -18,9 +18,8 @@ a:hover{
 
 .zuri-logo {
     display: flex;
-    margin: 70px 0;
-    /*padding-top: 69px;
-    margin-bottom: 69px;*/
+    padding-top: 69px;
+    margin-bottom: 69px;
 }
 
 .zuri-logo img {
@@ -29,9 +28,8 @@ a:hover{
 
 
 .hero-container {
-    height: 150vh;
-    background-image: url("..Assets/Images/hero-bg.svg");
-    background-size: cover;
+    background-image: url("./Assets/Images/hero-bg.svg");
+    background-size:cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
