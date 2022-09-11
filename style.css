@@ -86,6 +86,7 @@ a:hover{
 section.programs {
     background-color: #fff;
     overflow: hidden;
+    margin-bottom: 215px;
 }
 
 .program-content {
@@ -175,7 +176,7 @@ section.programs {
     opacity: 0.9;
 }
 footer{
-    margin: 215 px;
+    margin-top: 215 px;
     max-width: 1240 px;
     margin: 0 auto;
 }
@@ -183,6 +184,34 @@ footer{
     font-size: 16px;
     line-height: 24px;
     color: #514949;
+}
+.footer p{
+    font-size: 14 px;
+    line-height: 20 px;
+    color: #514949;
+    opacity: 0.9;
+}
+.contact-icons img{
+    width: 15px;
+    margin-left: 5px;
+}
+footer hr {
+    opacity: 0.2;
+    border: 0.7px solid #514949;
+    width: 90%;
+    margin: 0 auto;  
+}
+.copyright{
+    margin: 0 auto;
+}
+.copyright p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 32px;
+    padding-bottom: 70px;
+    color: #514949;   
 }
 
 
